@@ -61,7 +61,9 @@ const default_config = {
           ],
         },
         {
-
+          name: "media",
+          links: [
+          ],
         },
       ],
     },
