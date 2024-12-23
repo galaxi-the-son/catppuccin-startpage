@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Alexandria",
     scale: "C",
   },
   clock: {
@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "Galaxi",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
