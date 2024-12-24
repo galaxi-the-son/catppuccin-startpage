@@ -22,12 +22,31 @@ const default_config = {
         {
           name: "bookmarks",
           links: [
+            {
+              name: "github tutorial",
+              url: "https://barbagroup.github.io/essential_skills_RRC/git/git/",
+              icon: "help",
+            }
+
+
 
           ],
         },
         {
           name: "workspace",
-          links: [],
+          links: [
+            {
+              name: "proton mail",
+              url: "https://mail.proton.me/u/2/inbox",
+              icon: "mail",
+            },
+            {
+              name: "todoist",
+              url: "https://todoist.com",
+              icon: "checkbox",
+            },
+
+          ],
         }
       ],
     },
@@ -45,17 +64,21 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
-            {
               name: "stackoverflow",
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
               icon_color: palette.red,
-            }
+            },
+          ],
+        },
+        {
+          name: "challenges",
+          links: [
+            {
+              name: "code wars",
+              url: "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=popularity+desc",
+              icon: "swords",
+            },
           ],
         },
       ],
