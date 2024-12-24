@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = frappe;
 
 const default_config = {
   overrideStorage: true,
@@ -26,9 +26,8 @@ const default_config = {
               name: "github tutorial",
               url: "https://barbagroup.github.io/essential_skills_RRC/git/git/",
               icon: "help",
+              icon_color: palette.blue,
             }
-
-
 
           ],
         },
@@ -39,11 +38,13 @@ const default_config = {
               name: "proton mail",
               url: "https://mail.proton.me/u/2/inbox",
               icon: "mail",
+              icon_color: palette.mauve,
             },
             {
               name: "todoist",
               url: "https://todoist.com",
               icon: "checkbox",
+              icon_color: palette.green,
             },
 
           ],
@@ -78,6 +79,7 @@ const default_config = {
               name: "code wars",
               url: "https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=popularity+desc",
               icon: "swords",
+              icon_color: palette.red,
             },
           ],
         },
